@@ -118,6 +118,28 @@ npm run dev
 - `npm run preview` - Preview production build
 - `npm run lint` - Run ESLint
 
+## 🚀 Deployment
+
+### Deploy to Vercel
+
+This project is configured for easy deployment on Vercel:
+
+1. **Push your code to GitHub** (if not already done)
+
+2. **Import to Vercel**:
+   - Go to [vercel.com](https://vercel.com)
+   - Click "Add New Project"
+   - Import your GitHub repository
+   - Vercel will auto-detect Vite settings
+
+3. **Deploy**:
+   - Vercel will automatically build and deploy
+   - Your app will be live at `https://your-project.vercel.app`
+
+The `vercel.json` configuration file is included for optimal routing and build settings.
+
+**Note**: Since this app uses `localStorage` for data persistence, data will be stored locally in each user's browser and won't persist across devices.
+
 ## 📝 Order Data Structure
 
 ```typescript
